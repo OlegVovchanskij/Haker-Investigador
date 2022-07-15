@@ -1,0 +1,26 @@
+$orange:#FFB319;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700;400;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Chakra Petch', sans-serif;
+}
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.orange{
+	color: $orange;
+}
+
+@import 'components/header.scss';
+@import 'components/services.scss';
+@import 'components/training.scss';
+@import 'components/team.scss';
+@import 'components/footer.scss';
+
+

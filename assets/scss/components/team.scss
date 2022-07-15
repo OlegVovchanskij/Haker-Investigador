@@ -1,0 +1,84 @@
+.team{
+	background-color: #000;
+	background-image: url(../img/team-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	&__title{
+		text-align: center;
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 52px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		margin-bottom: 70px;
+	}
+	&__profile{
+		display: flex;
+		&__left{
+			width: 50%;
+			
+		}
+		&__right{
+			
+			width: 50%;
+		}
+	}
+}
+
+
+.photo{
+	display: flex;
+	
+}
+.center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.start{
+	justify-content: flex-start;
+}
+.end{
+	justify-content: flex-end;
+}
+.persone__name{
+	margin-top: 40px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 42px;
+	text-transform: uppercase;
+	color: $orange;
+	margin-bottom: 12px;
+}
+.persone__prof{
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 29px;
+	color: #FFFFFF;
+	margin-bottom: 24px;
+}
+.persone__descr{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFFFFF;
+	max-width: 700px;
+
+		p{
+			margin-bottom: 20px;
+		}
+}
+.team__btn{
+	padding: 20px 37px;
+	background: $orange;
+	border-radius: 80px;
+	min-width: 400px;
+	min-height: 66px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	color: #000000;
+	margin-bottom: 150px;
+}
